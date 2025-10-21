@@ -27,8 +27,8 @@ nav ul {
 }
 
 .nav-icon {
-  width: 25px;         
-  height: 25px;
+  width: 23px;         
+  height: 23px;
   vertical-align: middle;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
