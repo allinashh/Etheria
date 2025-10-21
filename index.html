@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Étheria</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1> Étheria</h1>
+  <nav>
+    <ul>
+      <li><a href="index.html" class="active">Main page</a></li>
+      <li><a href="page1.html">FW 24/25</a></li>
+      <li><a href="page2.html">Fashion houses</a></li>
+      <li><a href="page3.html">Show schedules</a></li>
+      <li><a href="https://theblueprint.ru/culture/history/vogue-alphabet" target="_blank">The Blueprint</a></li>
+      </li><a href="https://www.thesymbol.ru/fashion/" target="_blank" class="icon-link">
+      <img src=thesymbol-thumbnail.png alt="The Symbol Fashion" class="nav-icon"></a></li>    
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <h3>Welcome to the fashion world</h3>
+  <p>This website was created as <a href="#anchor">your guide</a> to the fashion industry.</p>
+  <h3 id="anchor">What you’ll find here:</h3>
+  <ul>
+    <li><strong>New collections and trends</strong></li>
+    <li><strong>Top fashion houses</strong></li>
+    <li><strong>Style inspiration and beauty advices:</strong></li>
+          <ul>
+        <li>Makeup tips</li>
+        <li>Hair styling tutorials</li>
+        <li>Seasonal outfit ideas</li>
+      </ul>
+    </li>
+  </ul>
+</main>
+
+<section id="journalist-form">
+  <form action="https://www.google.com/webhp" method="get" target="_blank" name="UserEnter" id="UserEnter">
+    <h3>Join Our Fashion Magazine as a Journalist</h3>
+
+    <input type="text" name="first_name" placeholder="First Name" required>
+    <input type="text" name="last_name" placeholder="Last Name" required>
+    <input type="email" name="email" placeholder="Email" required>
+    <input type="number" name="phone" placeholder="Mobile Number" required>
+    <input type="date" name="submission_date" value="" required>
+    <input type="password" name="password" placeholder="Password" required>
+    <input type="password" name="confirm_password" placeholder="Confirm Password" required>
+
+    <div class="row">
+      <label><input type="checkbox" name="newsletter" value="yes" checked> Subscribe to Newsletter</label>
+      <label><input type="checkbox" name="terms" value="agree" required> I agree to Terms</label>
+    </div>
+
+    <div class="row">
+      <label><input type="radio" name="experience" value="beginner" checked> Beginner</label>
+      <label><input type="radio" name="experience" value="pro"> Professional</label>
+    </div>
+
+    <input type="reset" value="Reset">
+    <button type="submit">Send</button>
+  </form>
+</section>
+
+
+  
+<footer>
+  <p>© 2025 Étheria </p>
+</footer>
+
+</body>
+</html>
